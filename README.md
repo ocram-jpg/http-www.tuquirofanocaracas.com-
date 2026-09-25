@@ -6,9 +6,9 @@ Primer borrador de una web estática orientada a cirujanos. Abre `index.html` pa
 
 - WhatsApp confirmado por el propietario: `+58 422 800 3270`. Se cambia en `script.js` (`CONTACT_NUMBER`) si es necesario.
 - Teléfono de oficina confirmado por el propietario: `0212-2832759`.
-- Confirmar el correo `gerencia@caqsacirugia.com`, la dirección y las condiciones exactas de uso de quirófanos.
+- Correo indicado por el propietario: `caqsantonio@gmail.com`. Confirmar la dirección y las condiciones exactas de uso de quirófanos.
 - Confirmar los equipos y servicios descritos. La disponibilidad se consulta para cada cirugía.
-- Aprobar las fotos: dos de la web anterior y tres aportadas por el propietario. Las imágenes de historias se muestran recortadas con CSS para usar su zona fotográfica, sin los textos superpuestos.
+- Aprobar las fotos actuales del quirófano y del jardín vertical aportadas por el propietario, además del video breve del área de espera. No se usan en la galería las piezas con texto publicitario superpuesto.
 - Confirmar el horario mostrado en la pieza aportada: lunes a viernes 8:00 a. m. a 5:00 p. m.; sábados y domingos, cirugías programadas.
 - Revisar las especialidades y añadir las que se desee captar.
 
@@ -18,4 +18,4 @@ Sube estos archivos a la raíz de un repositorio. En Settings → Pages, selecci
 
 ## Fuentes de contenido
 
-Los datos y parte de las fotografías proceden de `https://www.tuquirofanocaracas.com/`, en particular `/alquiler-de-quirofanos`, `/traumatologia`, `/instalaciones` y `/contactos`. El propietario aportó tres piezas fotográficas adicionales y confirmó los números de contacto el 24 de septiembre de 2026.
+Los datos y parte de las fotografías proceden de `https://www.tuquirofanocaracas.com/`, en particular `/alquiler-de-quirofanos`, `/traumatologia`, `/instalaciones` y `/contactos`. El propietario aportó tres piezas fotográficas adicionales y confirmó los números de contacto el 24 de septiembre de 2026 y el correo el 25 de septiembre de 2026.
