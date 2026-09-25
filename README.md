@@ -1,21 +1,13 @@
 # Centro Quirúrgico San Antonio
 
-Primer borrador de una web estática orientada a cirujanos. Abre `index.html` para revisar el contenido. No depende de paquetes ni de un servidor para funcionar.
+Sitio estático para `www.tuquirofanocaracas.com`. Esta carpeta contiene todos los archivos de la página, incluidas ocho piezas nuevas de video, dos imágenes sobre mesa de mano y el video previo del área de espera. Los videos se reproducen al tocarlos y no se descargan completos al abrir la página.
 
-## Datos antes de publicar
+## Actualizar la página con GitHub Desktop
 
-- WhatsApp confirmado por el propietario: `+58 422 800 3270`. Se cambia en `script.js` (`CONTACT_NUMBER`) si es necesario.
-- Teléfono de oficina confirmado por el propietario: `0212-2832759`.
-- Correo indicado por el propietario: `caqsantonio@gmail.com`. Confirmar la dirección y las condiciones exactas de uso de quirófanos.
-- Confirmar los equipos y servicios descritos. La disponibilidad se consulta para cada cirugía.
-- Aprobar las fotos actuales del quirófano y del jardín vertical aportadas por el propietario, además del video breve del área de espera. No se usan en la galería las piezas con texto publicitario superpuesto.
-- Confirmar el horario mostrado en la pieza aportada: lunes a viernes 8:00 a. m. a 5:00 p. m.; sábados y domingos, cirugías programadas.
-- Revisar las especialidades y añadir las que se desee captar.
+1. Descomprime el ZIP y abre en GitHub Desktop el repositorio `ocram-jpg/http-www.tuquirofanocaracas.com-`.
+2. Usa **Repository → Show in Explorer** para abrir la carpeta local del repositorio.
+3. Copia **el contenido** de esta carpeta (incluidos `index.html`, los CSS, `script.js`, `CNAME` y la carpeta `assets`) dentro de esa carpeta del repositorio. Acepta reemplazar los archivos existentes. No copies la carpeta contenedora como una subcarpeta.
+4. Vuelve a GitHub Desktop. Verifica que aparezcan los archivos nuevos, escribe un resumen como `Actualizar videos, imágenes y contacto`, pulsa **Commit to main** y luego **Push origin**.
+5. Espera unos minutos y abre `https://www.tuquirofanocaracas.com/` en el navegador. Si se conserva una versión anterior, actualiza la página o ábrela en una ventana privada.
 
-## Publicación en GitHub Pages
-
-Sube estos archivos a la raíz de un repositorio. En Settings → Pages, selecciona **Deploy from a branch**, rama `main`, carpeta `/ (root)`. Primero revisa la dirección temporal que GitHub asigna. Una vez aprobada la web, configura `www.tuquirofanocaracas.com` como dominio personalizado en Pages y cambia los registros DNS según las instrucciones de GitHub y de tu registrador. Mantén la web de Wix activa hasta comprobar que el nuevo dominio funciona.
-
-## Fuentes de contenido
-
-Los datos y parte de las fotografías proceden de `https://www.tuquirofanocaracas.com/`, en particular `/alquiler-de-quirofanos`, `/traumatologia`, `/instalaciones` y `/contactos`. El propietario aportó tres piezas fotográficas adicionales y confirmó los números de contacto el 24 de septiembre de 2026 y el correo el 25 de septiembre de 2026.
+WhatsApp: `+58 422 800 3270`; teléfono: `0212-2832759`; correo: `caqsantonio@gmail.com`; Instagram: `@caqsacirugia`. El número de WhatsApp se define en `script.js`.
