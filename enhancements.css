@@ -13,4 +13,4 @@
 .experience-callout span{display:block}
 @media(max-width:1020px){.brand-logo{width:170px;height:70px}}
 @media(max-width:800px){.brand-logo{width:150px;height:64px}.photo-grid{grid-template-columns:repeat(2,1fr)}.photo-card-wide{grid-column:1/-1}}
-@media(max-width:560px){.photo-grid{gap:9px}.photo-card-wide{aspect-ratio:1.1}.photo-card-video{aspect-ratio:.8}.experience-callout{gap:13px;padding:15px 14px;margin-bottom:27px}.experience-number{font-size:39px;padding-right:12px}.experience-callout b{font-size:18px}.experience-callout p{font-size:12px}.feature-image{margin-top:32px}}
+@media(max-width:560px){.photo-grid{gap:9px}.photo-card-wide{aspect-ratio:1.1}.photo-card-video{aspect-ratio:.8}.experience-callout{gap:13px;padding:15px 14px;margin-bottom:27px}.experience-number{font-size:39px;padding-right:12px}.experience-callout b{font-size:18px}.experience-callout p{font-size:12px}.feature-image{margin-top:32px}.feature-image figure{width:min(100%,270px)}.feature-image img{width:100%;height:auto;aspect-ratio:2/3;object-fit:contain}}
