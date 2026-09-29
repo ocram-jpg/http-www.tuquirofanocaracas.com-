@@ -48,11 +48,20 @@ const showSlide = index => {
 };
 heroMedia.querySelector('.slide-prev').addEventListener('click', () => showSlide(activeSlide - 1));
 heroMedia.querySelector('.slide-next').addEventListener('click', () => showSlide(activeSlide + 1));
-if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-  window.setInterval(() => {
-    if (!document.hidden && !heroMedia.matches(':hover') && !heroMedia.matches(':focus-within')) showSlide(activeSlide + 1);
-  }, 6500);
-}
+const pauseButton = heroMedia.querySelector('.slide-pause');
+let slidePaused = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const updatePauseButton = () => {
+  pauseButton.textContent = slidePaused ? '▶' : 'Ⅱ';
+  pauseButton.setAttribute('aria-pressed', String(slidePaused));
+  pauseButton.setAttribute('aria-label', slidePaused
+    ? (isEnglish ? 'Play automatic slideshow' : 'Reanudar cambio automático')
+    : (isEnglish ? 'Pause automatic slideshow' : 'Pausar cambio automático'));
+};
+updatePauseButton();
+pauseButton.addEventListener('click', () => { slidePaused = !slidePaused; updatePauseButton(); });
+window.setInterval(() => {
+  if (!document.hidden && !slidePaused) showSlide(activeSlide + 1);
+}, 5500);
 
 const imageDialog = document.querySelector('.image-dialog');
 const enlargedImage = imageDialog.querySelector('img');

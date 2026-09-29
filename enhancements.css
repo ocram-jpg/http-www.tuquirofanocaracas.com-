@@ -61,3 +61,6 @@
 .footer-bottom .contact-icon{width:16px;height:16px}
 @media(max-width:560px){.hero-slideshow-controls{right:17px;bottom:54px}.hero-slideshow-controls button{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){.hero-media .hero-slide{transition:none}}
+
+.hero h1 .hero-highlight{background:var(--accent);color:var(--deep);font-weight:700;padding:0 .1em .04em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.hero-slideshow-controls .slide-pause{font-size:17px;font-weight:700}
