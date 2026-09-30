@@ -1,13 +1,26 @@
-# Centro Quirúrgico San Antonio
+RESTAURAR LA WEB DEL CENTRO QUIRURGICO SAN ANTONIO
 
-Sitio estático para `www.tuquirofanocaracas.com`. Esta carpeta contiene todos los archivos de la página, incluidas ocho piezas nuevas de video, dos imágenes sobre mesa de mano y el video previo del área de espera. Los videos se reproducen al tocarlos y no se descargan completos al abrir la página.
+Este paquete corresponde a www.tuquirofanocaracas.com.
+Incluye la version en espanol y en ingles, todos los archivos de la web,
+fotos, logo y el unico video seleccionado de los quirofanos.
 
-## Actualizar la página con GitHub Desktop
+Ultimos cambios incluidos:
+- Cuatro quirofanos destacado sobre fondo azul claro.
+- Portada con tres fotos que rotan cada 5,5 segundos y controles.
+- Galeria con cuatro imagenes ampliables y un video.
+- Iconos de WhatsApp, telefono, Instagram, ubicacion y correo.
+- Botones de contacto y selector Espanol / English.
 
-1. Descomprime el ZIP y abre en GitHub Desktop el repositorio `ocram-jpg/http-www.tuquirofanocaracas.com-`.
-2. Usa **Repository → Show in Explorer** para abrir la carpeta local del repositorio.
-3. Copia **el contenido** de esta carpeta (incluidos `index.html`, los CSS, `script.js`, `CNAME` y la carpeta `assets`) dentro de esa carpeta del repositorio. Acepta reemplazar los archivos existentes. No copies la carpeta contenedora como una subcarpeta.
-4. Vuelve a GitHub Desktop. Verifica que aparezcan los archivos nuevos, escribe un resumen como `Actualizar videos, imágenes y contacto`, pulsa **Commit to main** y luego **Push origin**.
-5. Espera unos minutos y abre `https://www.tuquirofanocaracas.com/` en el navegador. Si se conserva una versión anterior, actualiza la página o ábrela en una ventana privada.
+1. Descomprime este ZIP.
+2. En GitHub Desktop selecciona el repositorio:
+   ocram-jpg/http-www.tuquirofanocaracas.com-
+3. Abre su carpeta con Repository > Show in Explorer.
+4. Copia TODO el contenido de este ZIP dentro de esa carpeta.
+   index.html y CNAME deben quedar en la raiz, junto a la carpeta assets.
+   Acepta reemplazar los archivos. Conserva la carpeta .git del repositorio.
+5. En GitHub Desktop revisa Changes. Escribe en Summary:
+   Restaurar web completa de San Antonio
+6. Pulsa Commit to main y despues Push origin.
 
-WhatsApp: `+58 422 800 3270`; teléfono: `0212-2832759`; correo: `caqsantonio@gmail.com`; Instagram: `@caqsacirugia`. El número de WhatsApp se define en `script.js`.
+Este paquete es solo de la clinica San Antonio. Usa el repositorio indicado.
+Si tienes otra web de Reset by Marco, usa su propio repositorio para esa web.
